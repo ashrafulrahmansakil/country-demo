@@ -26,8 +26,8 @@ export default function Countries() {
 
   return (
     <div>
-      <button disabled className=" btn btn-success mb-2">
-        All Country: {countries.length}
+      <button className="btn btn-dark w-100 disabled m-auto">
+        All Countrys in the worlds : {countries.length}
       </button>
       <br />
       <br />

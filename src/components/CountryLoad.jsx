@@ -1,5 +1,5 @@
 import React from "react";
-import { v4 as uuidv4 } from "uuid";
+import { v4 as uuid } from "uuid";
 import Country from "./Country";
 
 export default function CountryLoad(props) {
@@ -7,7 +7,7 @@ export default function CountryLoad(props) {
     <>
       <div className="row g-3">
         {props.countryLoad.map((country) => {
-          const newCountry = { country, id: uuidv4() };
+          const newCountry = { country, id: uuid() };
           return (
             <Country
               {...newCountry}

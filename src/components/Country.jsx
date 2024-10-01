@@ -21,14 +21,17 @@ export default function Country(props) {
       <div className="col-lg-3 col-md-4 col-sm-6">
         <div
           className="card border-danger text-capitalize"
-          style={{ height: "100%" }}>
+          style={{ height: "100%" }}
+        >
           <img
             src={flags.png}
             alt={name.common}
-            style={{ height: "16rem" }}
+            style={{ height: "10rem" }}
             className="card-img-top"
           />
-          <div className="card-body bg-dark text-white">
+
+          <div className="card-body bg-secondary text-white">
+            <p>SI NO : {}</p>
             <h5>country : {name.common} </h5>
             <p>region : {region}</p>
             <p>continents : {continents}</p>
@@ -37,16 +40,16 @@ export default function Country(props) {
             <p>independent : {capital}</p>
             <p>Officials: {name.official}</p>
             <p>start of Week: {startOfWeek}</p>
-
-            {/* button with remove */}
-            <button
-              className="btn btn-danger"
-              onClick={() => {
-                handleRemoveCountry(name.common);
-              }}>
-              Remove country
-            </button>
           </div>
+          {/* button with remove */}
+          <button
+            className="btn btn-info"
+            onClick={() => {
+              handleRemoveCountry(name.common);
+            }}
+          >
+            Remove country
+          </button>
         </div>
       </div>
     </>

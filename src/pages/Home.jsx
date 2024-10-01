@@ -1,15 +1,16 @@
-import React from "react";
 import Countries from "../components/Countries";
 
-export default function Home() {
+const Home = () => {
   return (
     <>
       <div className="container mt-4">
-        <div>All Country</div>
+        
         <div className="row">
-          <Countries/>
+          <Countries />
         </div>
       </div>
     </>
   );
-}
+};
+
+export default Home;
