@@ -31,7 +31,6 @@ export default function Country(props) {
           />
 
           <div className="card-body bg-secondary text-white">
-            <p>SI NO : {}</p>
             <h5>country : {name.common} </h5>
             <p>region : {region}</p>
             <p>continents : {continents}</p>

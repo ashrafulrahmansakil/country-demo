@@ -1,9 +1,11 @@
-const Service  =()=>{
-    return(
-        <>
-        <h1>hello worlds</h1>
-        </>
-    )
-}
+const Service = () => {
+  return (
+    <>
+      <div className="container">
+        <h1 className="text-uppercase">under manitaince ...</h1>
+      </div>
+    </>
+  );
+};
 
-export default Service
+export default Service;
