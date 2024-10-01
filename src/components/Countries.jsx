@@ -27,7 +27,7 @@ export default function Countries() {
   return (
     <div>
       <button className="btn btn-dark w-100 disabled m-auto">
-        All Countrys in the worlds : {countries.length}
+        All countries in the world: {countries.length}
       </button>
       <br />
       <br />
